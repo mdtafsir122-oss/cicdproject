@@ -33,5 +33,5 @@ steps:
       - 'us-central1-docker.pkg.dev/oval-turbine-495504-h2/myimage/myapp:$BUILD_ID'
       
 images:
-  - 'us-east1-docker.pkg.dev/openwriteup/cicd/myapp:$BUILD_ID'
-logsBucket: "gs://lab9-log-archive-biswa"
+  - 'us-central1-docker.pkg.dev/my-project-3-496619/tafsir/myapp:$BUILD_ID'
+logsBucket: "gs://tafsirkh"
